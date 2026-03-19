@@ -10,8 +10,3 @@
     "tensor_arena_size": 32000
   }
 }
-```
-
-**4. Get the raw URL for the JSON file** — click the file → click **Raw** → copy that URL. It'll look like:
-```
-https://raw.githubusercontent.com/ChickneTurky/my-wakewords/main/pee_nis.json
