@@ -3,7 +3,7 @@
   "wake_word": "pee nis",
   "version": 1,
   "micro": {
-    "model": "pee_nis.tflite",
+    "model": "https://github.com/ChickneTurky/pee_nis/raw/refs/heads/main/pee_nis.tflite",
     "probability_cutoff": 0.5,
     "sliding_window_size": 10,
     "feature_step_size": 10,
