@@ -1,22 +1,17 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2867
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
-
-\f0\fs24 \cf0 \{\
-  "type": "micro",\
-  "wake_word": "pee nis",\
-  "author": "Kyle",\
-  "model": "pee_nis.tflite",\
-  "version": 2,\
-  "micro": \{\
-    "probability_cutoff": 0.97,\
-    "sliding_window_size": 5,\
-    "feature_step_size": 10,\
-    "tensor_arena_size": 22860,\
-    "minimum_esphome_version": "2024.7"\
-  \}\
-\}\
+{
+  "type": "micro_wake_word_model",
+  "wake_word": "pee nis",
+  "version": 1,
+  "micro": {
+    "model": "pee_nis.tflite",
+    "probability_cutoff": 0.5,
+    "sliding_window_size": 10,
+    "feature_step_size": 10,
+    "tensor_arena_size": 32000
+  }
 }
+```
+
+**4. Get the raw URL for the JSON file** — click the file → click **Raw** → copy that URL. It'll look like:
+```
+https://raw.githubusercontent.com/ChickneTurky/my-wakewords/main/pee_nis.json
