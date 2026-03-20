@@ -1,8 +1,8 @@
 {
   "type": "micro",
   "wake_word": "penis",
-  "author": "Tater Totterson",
-  "website": "https://github.com/TaterTotterson/microWakeWord-Trainer-AppleSilicon",
+  "author": "ChickneTurky",
+  "website": "https://github.com/ChickneTurky/pee_nis",
   "model": "penis.tflite",
   "trained_languages": [
     "en"
